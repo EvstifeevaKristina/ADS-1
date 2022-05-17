@@ -32,7 +32,7 @@ uint64_t nextPrime(uint64_t value) {
 // вставьте код функции
 value++;
   while (checkPrime(value) != true) {
-     value++;
+    value++;
   }
   return value;
 }
